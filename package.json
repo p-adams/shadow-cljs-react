@@ -5,5 +5,8 @@
   "devDependencies": {
     "shadow-cljs": "2.8.104"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

@@ -4,8 +4,9 @@
   "src/main"
   "src/test"]
 
- :dependencies
- []
-
+ :dependencies []
+ :dev-http {8080 "public"}
  :builds
- {}}
+ {:shadow-cljs-react
+  {:target :browser
+   :modules {:main {:init-fn shadow-cljs-react.app/init}}}}}
